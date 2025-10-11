@@ -1,0 +1,6 @@
+dash==2.17.1
+pandas
+black
+autopep8
+flask
+paramiko
