@@ -1,0 +1,143 @@
+2025-10-11 16:41:10,113 - __main__ - INFO - Módulo agent-ollama.py cargado correctamente
+2025-10-11 16:41:10,881 - source_python_ollama - INFO - pylint disponible: pylint 3.0.3
+astroid 3.0.3
+Python 3.10.19 (main, Oct  9 2025, 22:45:33) [GCC 14.2.0]
+2025-10-11 16:41:11,198 - source_python_ollama - INFO - black disponible: black, 23.12.1 (compiled: yes)
+Python (CPython) 3.10.19
+2025-10-11 16:41:11,308 - source_python_ollama - INFO - isort disponible: _                 _
+                (_) ___  ___  _ __| |_
+                | |/ _/ / _ \/ '__  _/
+                | |\__ \/\_\/| |  | |_
+                |_|\___/\___/\_/   \_/
+
+      isort your imports, so you don't have to.
+
+                    VERSION 5.13.2
+2025-10-11 16:41:11,706 - source_python_ollama - INFO - flake8 disponible: 7.0.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.2.0) CPython 3.10.19 on
+Linux
+2025-10-11 16:41:11,772 - source_python_ollama - INFO - autopep8 disponible: autopep8 2.0.4 (pycodestyle: 2.11.1)
+2025-10-11 16:41:12,268 - source_python_ollama - INFO - mypy disponible: mypy 1.8.0 (compiled: yes)
+2025-10-11 16:41:12,268 - agent_ollama - INFO - Módulo python cargado desde source-python-ollama.py
+2025-10-11 16:41:12,528 - source_javascript_ollama - INFO - Node.js disponible: v20.19.5
+2025-10-11 16:41:15,315 - source_javascript_ollama - INFO - eslint disponible: v9.37.0
+2025-10-11 16:41:15,840 - source_javascript_ollama - INFO - prettier disponible: 3.6.2
+2025-10-11 16:41:15,841 - agent_ollama - INFO - Módulo javascript cargado desde source-javascript-ollama.py
+2025-10-11 16:41:15,846 - source_r_ollama - WARNING - R no está disponible o no responde
+2025-10-11 16:41:15,847 - agent_ollama - INFO - Módulo r cargado desde source-r-ollama.py
+2025-10-11 16:41:15,847 - agent_ollama - INFO - Agente iniciado - Sesión: 20251011_164110
+2025-10-11 16:41:15,848 - __main__ - INFO - Agente inicializado correctamente
+2025-10-11 16:41:15,851 - __main__ - INFO - Iniciando aplicación Dash
+2025-10-11 16:41:15,851 - __main__ - INFO - Configuración: OLLAMA_BASE_URL=http://0.0.0.0:11434, MODEL_NAME=codellama:7b
+2025-10-11 16:41:15,851 - __main__ - INFO - Paths: BASE=/app/base, SOURCE=/app/source
+2025-10-11 16:41:15,852 - __main__ - INFO - ✓ agent-ollama.py encontrado en /app/base/agent-ollama.py
+2025-10-11 16:41:15,853 - __main__ - INFO - ✓ source-python-ollama.py encontrado
+2025-10-11 16:41:15,853 - __main__ - INFO - ✓ source-javascript-ollama.py encontrado
+2025-10-11 16:41:15,854 - __main__ - INFO - ✓ source-r-ollama.py encontrado
+2025-10-11 16:41:15,855 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-10-11 16:41:15,941 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://172.17.0.2:8050
+2025-10-11 16:41:15,942 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-11 16:41:18,515 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:41:18] "GET / HTTP/1.1" 200 -
+2025-10-11 16:41:49,025 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:41:49] "GET / HTTP/1.1" 200 -
+2025-10-11 16:42:19,170 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:42:19] "GET / HTTP/1.1" 200 -
+2025-10-11 16:42:49,406 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:42:49] "GET / HTTP/1.1" 200 -
+2025-10-11 16:43:19,818 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:43:19] "GET / HTTP/1.1" 200 -
+2025-10-11 16:43:31,748 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET / HTTP/1.1" 200 -
+2025-10-11 16:43:31,800 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-component-suites/dash/deps/polyfill@7.v2_14_1m1760127315.12.1.min.js HTTP/1.1" 200 -
+2025-10-11 16:43:31,802 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-component-suites/dash/deps/react@16.v2_14_1m1760127315.14.0.min.js HTTP/1.1" 200 -
+2025-10-11 16:43:31,807 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-component-suites/dash/deps/react-dom@16.v2_14_1m1760127315.14.0.min.js HTTP/1.1" 200 -
+2025-10-11 16:43:31,808 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-component-suites/dash/deps/prop-types@15.v2_14_1m1760127315.8.1.min.js HTTP/1.1" 200 -
+2025-10-11 16:43:31,814 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v1_5_0m1760127374.min.js HTTP/1.1" 200 -
+2025-10-11 16:43:31,825 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v2_14_1m1760127315.min.js HTTP/1.1" 200 -
+2025-10-11 16:43:31,831 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-component-suites/dash/html/dash_html_components.v2_0_15m1760127315.min.js HTTP/1.1" 200 -
+2025-10-11 16:43:31,833 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v2_12_1m1760127315.js HTTP/1.1" 200 -
+2025-10-11 16:43:31,833 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-component-suites/dash/dash_table/bundle.v5_2_8m1760127315.js HTTP/1.1" 200 -
+2025-10-11 16:43:31,833 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-component-suites/dash/dcc/dash_core_components.v2_12_1m1760127315.js HTTP/1.1" 200 -
+2025-10-11 16:43:31,994 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-layout HTTP/1.1" 200 -
+2025-10-11 16:43:31,996 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:31] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-10-11 16:43:32,013 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:32] "GET /_favicon.ico?v=2.14.1 HTTP/1.1" 200 -
+2025-10-11 16:43:32,031 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:32] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+2025-10-11 16:43:32,040 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 16:43:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-10-11 16:43:50,278 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:43:50] "GET / HTTP/1.1" 200 -
+2025-10-11 16:44:20,573 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:44:20] "GET / HTTP/1.1" 200 -
+2025-10-11 16:44:50,688 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:44:50] "GET / HTTP/1.1" 200 -
+2025-10-11 16:45:20,815 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:45:20] "GET / HTTP/1.1" 200 -
+2025-10-11 16:45:50,927 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:45:50] "GET / HTTP/1.1" 200 -
+2025-10-11 16:46:21,168 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:46:21] "GET / HTTP/1.1" 200 -
+2025-10-11 16:46:51,513 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:46:51] "GET / HTTP/1.1" 200 -
+2025-10-11 16:47:21,790 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:47:21] "GET / HTTP/1.1" 200 -
+2025-10-11 16:47:52,154 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:47:52] "GET / HTTP/1.1" 200 -
+2025-10-11 16:48:22,490 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:48:22] "GET / HTTP/1.1" 200 -
+2025-10-11 16:48:52,739 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:48:52] "GET / HTTP/1.1" 200 -
+2025-10-11 16:49:23,095 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:49:23] "GET / HTTP/1.1" 200 -
+2025-10-11 16:49:53,276 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:49:53] "GET / HTTP/1.1" 200 -
+2025-10-11 16:50:23,433 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:50:23] "GET / HTTP/1.1" 200 -
+2025-10-11 16:50:53,765 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:50:53] "GET / HTTP/1.1" 200 -
+2025-10-11 16:51:23,899 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:51:23] "GET / HTTP/1.1" 200 -
+2025-10-11 16:51:54,093 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:51:54] "GET / HTTP/1.1" 200 -
+2025-10-11 16:52:24,486 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:52:24] "GET / HTTP/1.1" 200 -
+2025-10-11 16:52:54,615 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:52:54] "GET / HTTP/1.1" 200 -
+2025-10-11 16:53:24,762 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:53:24] "GET / HTTP/1.1" 200 -
+2025-10-11 16:53:54,895 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:53:54] "GET / HTTP/1.1" 200 -
+2025-10-11 16:54:25,059 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:54:25] "GET / HTTP/1.1" 200 -
+2025-10-11 16:54:55,168 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:54:55] "GET / HTTP/1.1" 200 -
+2025-10-11 16:55:25,337 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:55:25] "GET / HTTP/1.1" 200 -
+2025-10-11 16:55:55,493 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:55:55] "GET / HTTP/1.1" 200 -
+2025-10-11 16:56:25,646 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:56:25] "GET / HTTP/1.1" 200 -
+2025-10-11 16:56:55,798 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:56:55] "GET / HTTP/1.1" 200 -
+2025-10-11 16:57:26,085 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:57:26] "GET / HTTP/1.1" 200 -
+2025-10-11 16:57:56,251 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:57:56] "GET / HTTP/1.1" 200 -
+2025-10-11 16:58:26,403 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:58:26] "GET / HTTP/1.1" 200 -
+2025-10-11 16:58:56,513 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:58:56] "GET / HTTP/1.1" 200 -
+2025-10-11 16:59:26,663 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:59:26] "GET / HTTP/1.1" 200 -
+2025-10-11 16:59:56,871 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 16:59:56] "GET / HTTP/1.1" 200 -
+2025-10-11 17:00:27,048 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:00:27] "GET / HTTP/1.1" 200 -
+2025-10-11 17:00:57,245 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:00:57] "GET / HTTP/1.1" 200 -
+2025-10-11 17:01:27,430 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:01:27] "GET / HTTP/1.1" 200 -
+2025-10-11 17:01:57,755 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:01:57] "GET / HTTP/1.1" 200 -
+2025-10-11 17:02:27,996 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:02:27] "GET / HTTP/1.1" 200 -
+2025-10-11 17:02:58,187 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:02:58] "GET / HTTP/1.1" 200 -
+2025-10-11 17:03:28,293 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:03:28] "GET / HTTP/1.1" 200 -
+2025-10-11 17:03:58,403 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:03:58] "GET / HTTP/1.1" 200 -
+2025-10-11 17:04:28,548 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:04:28] "GET / HTTP/1.1" 200 -
+2025-10-11 17:04:58,719 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:04:58] "GET / HTTP/1.1" 200 -
+2025-10-11 17:05:29,212 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:05:29] "GET / HTTP/1.1" 200 -
+2025-10-11 17:05:59,364 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:05:59] "GET / HTTP/1.1" 200 -
+2025-10-11 17:06:29,800 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:06:29] "GET / HTTP/1.1" 200 -
+2025-10-11 17:07:00,086 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:07:00] "GET / HTTP/1.1" 200 -
+2025-10-11 17:07:30,280 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:07:30] "GET / HTTP/1.1" 200 -
+2025-10-11 17:07:49,244 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:49] "GET / HTTP/1.1" 200 -
+2025-10-11 17:07:49,530 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:49] "GET /_dash-layout HTTP/1.1" 200 -
+2025-10-11 17:07:49,535 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:49] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-10-11 17:07:49,546 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:49] "GET /_favicon.ico?v=2.14.1 HTTP/1.1" 200 -
+2025-10-11 17:07:49,589 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:49] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-10-11 17:07:49,604 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-10-11 17:07:50,272 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:50] "GET / HTTP/1.1" 200 -
+2025-10-11 17:07:50,403 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:50] "GET /_dash-layout HTTP/1.1" 200 -
+2025-10-11 17:07:50,407 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:50] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-10-11 17:07:50,414 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:50] "GET /_favicon.ico?v=2.14.1 HTTP/1.1" 200 -
+2025-10-11 17:07:50,437 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:50] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-10-11 17:07:50,442 - werkzeug - INFO - 172.17.0.1 - - [11/Oct/2025 17:07:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-10-11 17:08:01,056 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:08:01] "GET / HTTP/1.1" 200 -
+2025-10-11 17:08:31,284 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:08:31] "GET / HTTP/1.1" 200 -
+2025-10-11 17:09:01,560 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:09:01] "GET / HTTP/1.1" 200 -
+2025-10-11 17:09:31,904 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:09:31] "GET / HTTP/1.1" 200 -
+2025-10-11 17:10:02,106 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:10:02] "GET / HTTP/1.1" 200 -
+2025-10-11 17:10:32,332 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:10:32] "GET / HTTP/1.1" 200 -
+2025-10-11 17:11:02,664 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:11:02] "GET / HTTP/1.1" 200 -
+2025-10-11 17:11:33,103 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:11:33] "GET / HTTP/1.1" 200 -
+2025-10-11 17:12:03,314 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:12:03] "GET / HTTP/1.1" 200 -
+2025-10-11 17:12:33,490 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:12:33] "GET / HTTP/1.1" 200 -
+2025-10-11 17:13:03,641 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:13:03] "GET / HTTP/1.1" 200 -
+2025-10-11 17:13:33,811 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:13:33] "GET / HTTP/1.1" 200 -
+2025-10-11 17:14:04,025 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:14:04] "GET / HTTP/1.1" 200 -
+2025-10-11 17:14:34,137 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:14:34] "GET / HTTP/1.1" 200 -
+2025-10-11 17:15:04,306 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:15:04] "GET / HTTP/1.1" 200 -
+2025-10-11 17:15:34,638 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:15:34] "GET / HTTP/1.1" 200 -
+2025-10-11 17:16:04,784 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:16:04] "GET / HTTP/1.1" 200 -
+2025-10-11 17:16:35,001 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:16:35] "GET / HTTP/1.1" 200 -
+2025-10-11 17:17:05,130 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:17:05] "GET / HTTP/1.1" 200 -
+2025-10-11 17:17:35,515 - werkzeug - INFO - 127.0.0.1 - - [11/Oct/2025 17:17:35] "GET / HTTP/1.1" 200 -
