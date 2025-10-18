@@ -94,7 +94,7 @@ RUN chmod +x /app/start.sh
 EXPOSE 22 8050 11434
 
 # === Volúmenes persistentes ===
-VOLUME ["/root/.ollama", "/app/knowledge_base", "/app/logs", "/app/node_modules"]
+
 
 # === Healthcheck ===
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
