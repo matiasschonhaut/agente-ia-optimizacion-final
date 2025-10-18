@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     APP_KNOWLEDGE_BASE_PATH=/app/knowledge_base \
     APP_LOGS_PATH=/app/logs \
     OLLAMA_BASE_URL=http://localhost:11434 \
-    MODEL_NAME=codellama:7b \
+    MODEL_NAME=codellama:2b \
     OLLAMA_HOST=0.0.0.0 \
     NODE_VERSION=20.x
 
@@ -97,8 +97,6 @@ EXPOSE 22 8050 11434
 
 
 # === Healthcheck ===
-HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-  CMD curl -f http://localhost:8050/ || exit 1
 
 # === Comando de inicio ===
 CMD ["/app/start.sh"]
