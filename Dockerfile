@@ -8,10 +8,11 @@ ENV DEBIAN_FRONTEND=noninteractive \
     APP_SOURCE_PATH=/app/source \
     APP_KNOWLEDGE_BASE_PATH=/app/knowledge_base \
     APP_LOGS_PATH=/app/logs \
-    OLLAMA_BASE_URL=http://0.0.0.0:11434 \
+    OLLAMA_BASE_URL=http://localhost:11434 \
     MODEL_NAME=codellama:7b \
     OLLAMA_HOST=0.0.0.0 \
     NODE_VERSION=20.x
+
 
 # === Dependencias del sistema ===
 RUN apt-get update && apt-get install -y \

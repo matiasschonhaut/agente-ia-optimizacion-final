@@ -1,0 +1,104 @@
+{
+  "examples": [
+    {
+      "input": "x = [1,2,3]\nfor i in range(0, len(x)):\n print(x[i])",
+      "optimized": "x = [1, 2, 3]\nfor value in x:\n    print(value)"
+    },
+    {
+      "input": "def suma(a,b):\n return a+b\n\nprint(suma(5,4))",
+      "optimized": "def suma(a: int, b: int) -> int:\n    return a + b\n\nif __name__ == '__main__':\n    print(suma(5, 4))"
+    },
+    {
+      "input": "nums = [1,2,3,4,5]\nsquares = []\nfor n in nums:\n    squares.append(n**2)",
+      "optimized": "nums = [1, 2, 3, 4, 5]\nsquares = [n**2 for n in nums]"
+    },
+    {
+      "input": "x = {'a':1,'b':2}\nfor key in x.keys():\n print(key, x[key])",
+      "optimized": "x = {'a': 1, 'b': 2}\nfor key, value in x.items():\n    print(key, value)"
+    },
+    {
+      "input": "f = open('data.txt','r')\ndata = f.read()\nf.close()",
+      "optimized": "with open('data.txt', 'r') as f:\n    data = f.read()"
+    },
+    {
+      "input": "list = [1,2,3,4]\nlist.reverse()\nprint(list)",
+      "optimized": "nums = [1, 2, 3, 4]\nprint(list(reversed(nums)))"
+    },
+    {
+      "input": "for i in range(0,len(data)):\n if data[i]>0:\n  print(data[i])",
+      "optimized": "for value in data:\n    if value > 0:\n        print(value)"
+    },
+    {
+      "input": "if x==True:\n print('ok')",
+      "optimized": "if x:\n    print('ok')"
+    },
+    {
+      "input": "if len(a) == 0:\n print('vacio')",
+      "optimized": "if not a:\n    print('vacío')"
+    },
+    {
+      "input": "import math\nr = 5\narea = math.pi * r * r\nprint('Area', area)",
+      "optimized": "import math\nr = 5\narea = math.pi * r**2\nprint(f'Área: {area:.2f}')"
+    },
+    {
+      "input": "x = []\nfor i in range(1000):\n x.append(i)",
+      "optimized": "x = list(range(1000))"
+    },
+    {
+      "input": "def factorial(n):\n if n==0:\n  return 1\n else:\n  return n*factorial(n-1)",
+      "optimized": "from math import prod\ndef factorial(n: int) -> int:\n    return prod(range(1, n + 1))"
+    },
+    {
+      "input": "total = 0\nfor i in range(1,11):\n total = total + i",
+      "optimized": "total = sum(range(1, 11))"
+    },
+    {
+      "input": "numbers = [1,2,3,4]\nresult = []\nfor n in numbers:\n result.append(str(n))",
+      "optimized": "numbers = [1, 2, 3, 4]\nresult = list(map(str, numbers))"
+    },
+    {
+      "input": "import time\nstart = time.time()\nfor i in range(1000000):\n pass\nprint(time.time()-start)",
+      "optimized": "import time\nstart = time.perf_counter()\nfor _ in range(1_000_000):\n    pass\nprint(time.perf_counter() - start)"
+    },
+    {
+      "input": "x = [1,2,3,4,5]\ny = []\nfor i in x:\n if i%2==0:\n  y.append(i)",
+      "optimized": "x = [1, 2, 3, 4, 5]\ny = [i for i in x if i % 2 == 0]"
+    },
+    {
+      "input": "a,b = 1,2\ntemp = a\na = b\nb = temp",
+      "optimized": "a, b = 1, 2\na, b = b, a"
+    },
+    {
+      "input": "try:\n val = int(x)\nexcept:\n print('Error')",
+      "optimized": "try:\n    val = int(x)\nexcept ValueError:\n    print('Error: valor no convertible a entero')"
+    },
+    {
+      "input": "if x != None:\n do_something()",
+      "optimized": "if x is not None:\n    do_something()"
+    },
+    {
+      "input": "data = {'a':1,'b':2}\nif 'c' in data.keys():\n print(data['c'])",
+      "optimized": "data = {'a': 1, 'b': 2}\nif 'c' in data:\n    print(data['c'])"
+    },
+    {
+      "input": "for i in range(len(items)):\n print(i, items[i])",
+      "optimized": "for i, item in enumerate(items):\n    print(i, item)"
+    },
+    {
+      "input": "sum = 0\nfor i in range(100):\n sum += i",
+      "optimized": "total = sum(range(100))"
+    },
+    {
+      "input": "def get_even_numbers(nums):\n result = []\n for n in nums:\n  if n % 2 == 0:\n   result.append(n)\n return result",
+      "optimized": "def get_even_numbers(nums: list[int]) -> list[int]:\n    return [n for n in nums if n % 2 == 0]"
+    },
+    {
+      "input": "lines = open('data.txt').readlines()\nlines = [l.strip() for l in lines]\nprint(lines)",
+      "optimized": "with open('data.txt') as f:\n    lines = [line.strip() for line in f]\nprint(lines)"
+    },
+    {
+      "input": "text = 'Python'\nfor i in range(0,len(text)):\n print(text[i])",
+      "optimized": "for ch in 'Python':\n    print(ch)"
+    }
+  ]
+}
